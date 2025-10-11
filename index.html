@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>am i cooked</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Am I Cooked?</h1>
+        </header>
+        <main class="card" id="mainCard">
+            <form id="weatherForm" novalidate>
+                <h2>
+                    Don't worry, we'll let you know if you're cooked for
+                    whatever you have planned today.
+                </h2>
+                <label for="location">Enter your location: </label>
+                <input
+                    type="text"
+                    name="location"
+                    id="location"
+                    class="--rounded"
+                />
+                <label for="activity">Enter your activity:</label>
+                <select
+                    name="activity"
+                    class="--rounded --interactable"
+                    id="activity"
+                >
+                    <button>
+                        <selectedcontent></selectedcontent>
+                    </button>
+                    <option value="run">Run</option>
+                    <option value="basketball">Basketball</option>
+                    <option value="picnic">Picnic</option>
+                </select>
+                <button
+                    type="button"
+                    class="--rounded --interactable"
+                    id="weatherBtn"
+                >
+                    Am I Cooked?
+                </button>
+            </form>
+            <div class="card" id="resultCard" data-result="neutral"></div>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
