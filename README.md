@@ -10,8 +10,8 @@
 -   [Installation / Website Demo](#installation--website-demo)
 -   [Tech Stack](#tech-stack)
 -   [Features](#features)
-    -   [Weather Metrics](#pencil-settings)
-    -   [Activity-Based Rating](#top-settings)
+    -   [Weather Metrics](#weather-metrics)
+    -   [Activity-Based Rating](#activity-based-rating)
 -   [Gallery](#gallery)
 -   [Credit](#credit)
 
@@ -21,7 +21,7 @@ Am I Cooked? is a lightweight, web-based weather readiness checker that helps us
 
 Users enter a location and select an activity such as Basketball, Picnic, or Running. The app fetches regional weather data using the Visual Crossing Weather API, displays relevant metrics, and applies custom logic to evaluate how favorable the conditions are for that activity.
 
-This project was built entirely with HTML, CSS, and vanilla JavaScript to demonstrate knowledge of fundamenntal web techologies, and API integration without the use of frameworks.
+This project was built entirely with HTML, CSS, and vanilla JavaScript to demonstrate knowledge of fundamental web technologies and API integration without the use of frameworks.
 
 ## Installation / Website Demo
 
@@ -38,16 +38,12 @@ Otherwise, the project can be run locally with the following steps:
 
 > No build tools or dependencies are required.
 
----
-
 ## Tech Stack
 
 -   HTML5 - Semantic structure and accessibility.
 -   CSS3 - Responsive layout and visual styling.
 -   JavaScript (ES6+) - Application logic and API handling.
 -   Visual Crossing Weather API - Real-time weather data.
-
----
 
 ## Features
 
@@ -67,8 +63,6 @@ These values are pulled in real time from the Visual Crossing Weather API and up
 <p align="center">
 <img src="images/gallery-1.png" width=60%>
 </p>
-
----
 
 ### Activity-Based Rating
 
