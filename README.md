@@ -78,6 +78,10 @@ The rating system takes into account factors such as temperature extremes, wind 
 <img src="images/gallery-2.png" width=80%>
 </p>
 
+<p align="center">
+<img src="images/gallery-5.png" width=80%>
+</p>
+
 ## Credit
 
 Weather data provided by the Visual Crossing Weather API.
