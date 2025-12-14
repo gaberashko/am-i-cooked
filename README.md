@@ -1,7 +1,7 @@
 # :sunny: Am-I-Cooked? :umbrella:
 
 <p align="center">
-    <img src="images/gallery-0.png" width=75%>
+    <img src="images/gallery-0.png" width=80%>
 </p>
 
 ## Table of Contents
@@ -61,7 +61,7 @@ For the selected location, the application displays:
 These values are pulled in real time from the Visual Crossing Weather API and updated dynamically on user input.
 
 <p align="center">
-<img src="images/gallery-1.png" width=60%>
+<img src="images/gallery-1.png" width=80%>
 </p>
 
 ### Activity-Based Rating
@@ -75,7 +75,7 @@ Each activity uses tailored evaluation logic to determine suitability based on w
 The rating system takes into account factors such as temperature extremes, wind speeds, and precipitation amounts to provide an intuitive final verdict.
 
 <p align="center">
-<img src="images/gallery-2.png" width=60%>
+<img src="images/gallery-2.png" width=80%>
 </p>
 
 ## Credit
